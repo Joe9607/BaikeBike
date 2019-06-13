@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/deposit/deposit",
+    "pages/logs/logs",
+    "pages/identify/identify"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拜客单车",
+    "navigationBarTextStyle": "black"
+  },
+    "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于拜客单车展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
